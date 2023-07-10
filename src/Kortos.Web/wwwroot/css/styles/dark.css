@@ -1,0 +1,287 @@
+body {
+    background-color: var(--bg-main);
+    color: var(--text-1);
+    font-size: 15px;
+    font-family: var(--font-1);
+    font-weight: normal;
+    font-style: normal;
+    line-height: 24px;
+}
+
+.title {
+    display: flex;
+    justify-content: flex-start;
+    /*white-space: nowrap;*/
+    align-items: center;
+}
+
+hr {
+    border-style: solid;
+}
+
+A:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+A:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+A:hover {
+    text-decoration: underline;
+}
+
+A:active {
+    text-decoration: underline;
+    color: inherit;
+}
+
+.external-link {
+    font-style: italic;
+    color: var(--ext-link)!important;
+}
+
+h1, .hd-1 {
+    font-size: 1.75em;
+    margin-bottom: 0.00em;
+    margin-top: 1.00em;
+    text-indent: 0.00em;
+    font-weight: bold;
+    font-style: normal;
+    font-variant: var(--font-variant);
+}
+
+h2, .hd-2 {
+    font-size: 1.3em;
+    margin-bottom: 0.00em;
+    margin-top: 1.00em;
+    text-indent: 0.00em;
+    margin-right: 0.00em;
+    margin-left: 0.00em;
+    font-weight: bold;
+    font-style: normal;
+    font-variant: var(--font-variant);
+}
+
+h2.title, .hd-2, h2.feel-title {
+    margin-bottom: 10px;
+    margin-left: -2px;
+    color: var(--mid-fg);
+    background-color: var(--mid-bg);
+    padding: var(--title-padding);
+    line-height: 1em;
+    -webkit-border-radius: var(--border-radius);
+    -moz-border-radius: var(--border-radius);
+    border-radius: var(--border-radius);
+    vertical-align: middle;
+}
+
+h1.title, .hd-1, h1.feel-title {
+    margin-bottom: 10px;
+    margin-left: -2px;
+    color: var(--head-fg);
+    background-color: var(--head-bg);
+    padding: var(--title-padding);
+    min-height: 26px;
+    line-height: 1em;
+    -webkit-border-radius: var(--border-radius);
+    -moz-border-radius: var(--border-radius);
+    border-radius: var(--border-radius);
+    vertical-align: middle;
+}
+
+.trait {
+    border-color: #d8c483;
+    background-color: var(--head-bg);
+    border-style: double;
+    border-width: 2px;
+    color: white;
+    font-size: 1.1em;
+    font-style: normal;
+    font-variant: var(--font-variant);
+    font-weight: bold;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: left;
+    text-indent: 0.00em;
+    display: inline-block;
+    margin: 0.1em 0;
+}
+
+.traitalignment {
+    background-color: #4287f5;
+    border-color: #d8c483;
+    border-style: double;
+    border-width: 2px;
+    color: white;
+    font-size: 1.1em;
+    font-style: normal;
+    font-variant: var(--font-variant);
+    font-weight: bold;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: left;
+    text-indent: 0.00em;
+    display: inline-block;
+    margin: 0.1em 0;
+}
+
+.traitrare {
+    background-color: #0c1466;
+    border-color: #d8c483;
+    border-style: double;
+    border-width: 2px;
+    color: white;
+    font-size: 1.1em;
+    font-style: normal;
+    font-variant: var(--font-variant);
+    font-weight: bold;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: left;
+    text-indent: 0.00em;
+    display: inline-block;
+    margin: 0.1em 0;
+}
+
+.traituncommon {
+    background-color: #c45500;
+    border-color: #d8c483;
+    border-style: double;
+    border-width: 2px;
+    color: white;
+    font-size: 1.1em;
+    font-style: normal;
+    font-variant: var(--font-variant);
+    font-weight: bold;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: left;
+    text-indent: 0.00em;
+    display: inline-block;
+    margin: 0.1em 0;
+}
+
+.traitunique {
+    background-color: #800080;
+    border-color: #d8c483;
+    border-style: double;
+    border-width: 2px;
+    color: white;
+    font-size: 1.1em;
+    font-style: normal;
+    font-variant: var(--font-variant);
+    font-weight: bold;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: left;
+    text-indent: 0.00em;
+    display: inline-block;
+    margin: 0.1em 0;
+}
+
+.traitsize {
+    background-color: #478c42;
+    border-color: #d8c483;
+    border-style: double;
+    border-width: 2px;
+    color: white;
+    font-size: 1.1em;
+    font-style: normal;
+    font-variant: var(--font-variant);
+    font-weight: bold;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: left;
+    text-indent: 0.00em;
+    display: inline-block;
+    margin: 0.1em 0;
+}
+
+.traitaon {
+    background: linear-gradient(#000, #666);
+    border-color: #d8c483;
+    border-style: double;
+    border-width: 2px;
+    color: white;
+    font-size: 1.1em;
+    font-style: normal;
+    font-variant: var(--font-variant);
+    font-weight: bold;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: left;
+    text-indent: 0.00em;
+    display: inline-block;
+    margin: 0.1em 0;
+}
+
+a img {
+    text-decoration: none;
+    border: 0 none;
+}
+
+img.ileft {
+    float: left;
+    top: 0px;
+    left: 0px;
+}
+
+img.iright {
+    float: right;
+    border: none;
+}
+
+h3.framing {
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+img.menu {
+    border: none;
+}
+
+img.thumbnail {
+    background: var(--bg-main);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    float: right;
+    clear: both;
+    padding: 5px;
+    width: 150px;
+}
+
+img.thumbnail:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+:root {
+    --bg-main: #0f0f0f;
+    --bg-0: #292929;
+    --bg-1: #64542F;
+    --bg-2: #342C19;
+    --head-bg: #522e2c;
+    --head-fg: #cbc18f;
+    --mid-bg: #806e45;
+    --mid-fg: #0f0f0f;
+    --sub-bg: #627d62;
+    --sub-fg: #0f0f0f;
+    --selected-bg: #124c74;
+    --selected-fg: #ffffff;
+    --hovered-bg: #cbc18f;
+    --hovered-fg: #000;
+    --text-1: #ffffff;
+    --text-2: #ffffff;
+    --ext-link: #00ffff;
+    --border-1: #333;
+    --border-2: #555;
+    --font-1: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    --border-radius: 3px;
+    --font-variant: small-caps;
+    --title-padding: 4px 9px;
+    --sub-padding: 0px 4px;
+}

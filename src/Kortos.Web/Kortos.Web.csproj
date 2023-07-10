@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <RootNamespace>Kortos.Web</RootNamespace>
+        <WarningsAsErrors>Nullable</WarningsAsErrors>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Content Include="..\..\.dockerignore">
+        <Link>.dockerignore</Link>
+      </Content>
+      <Content Remove="wwwroot\Content\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AngleSharp" Version="1.0.4" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="wwwroot\Content\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="wwwroot\Content\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="wwwroot\Content\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="wwwroot\Content\Images\Icons\PFS_Standard.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\Content\Images\Treasure\Brooch_of_Shielding.webp" />
+    </ItemGroup>
+
+</Project>

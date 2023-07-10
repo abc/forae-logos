@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>@ViewData["Title"]</title>
+    @await RenderSectionAsync("Styles", required: false)
+    @foreach (var tag in MetaHelper.MetaKeys)
+    {
+        @Html.MetaTag(tag.Key);
+    }
+    @if (ViewData["Style"] != null)
+    {
+        <link type="text/css" rel="stylesheet" href="~/css/styles/@ViewData["Style"]"/>
+    }
+</head>
+<body>
+<header>
+</header>
+<div>
+    <main role="main">
+        @RenderBody()
+    </main>
+</div>
+
+<footer class="footer">
+</footer>
+@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
